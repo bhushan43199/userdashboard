@@ -1,0 +1,40 @@
+.logo{
+font-size: 14px;
+color: #15387a;
+font-weight: 600;
+}
+.logo span{
+  font-size: 14px;
+color: #f77221;
+}
+.skyblue {
+  background-color: #58b5fc !important;
+}
+.lightGreen {
+  background-color: #61d861 !important;
+}
+.lightBlue{
+  background-color: #7965f1 !important;
+}
+.orange{
+  background-color: #ff625b !important;
+}
+.content-bx{
+  width: 100%;
+  padding: 15px 30px;
+  transition: 0.5s all;
+  border-radius: 5px;
+  text-align: right;
+  color: #fff;
+}
+.content-bx h5{
+ font-size: 30px;
+ margin-bottom: 20px; color: #fff;
+}
+.content-bx p{
+  font-size: 17px;
+  margin-bottom: 0; color: #fff;
+}
+.refresh{
+  display: none;
+}
