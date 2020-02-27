@@ -467,6 +467,46 @@
             <div class="row clearfix">
                 <div class="col-lg-12">
                     <div class="card">
+                        <div class="inbox-head">
+                            <div class="i_action d-flex justify-content-between align-items-center">
+                                <div class="">
+                                    <div class="checkbox simple d-inline-block mr-3" id="select_all" class="select_m">
+                                        <input id="mc0" type="checkbox">
+                                        <label for="mc0"></label>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="javascript:void(0);" class="btn btn-outline-secondary btn-sm"><i class="zmdi zmdi-refresh"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-secondary btn-sm"><i class="zmdi zmdi-archive"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-secondary btn-sm"><i class="zmdi zmdi-delete"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Labels</button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="javascript:void(0);">UI Project</a>
+                                            <a class="dropdown-item" href="javascript:void(0);">Marketing</a>
+                                            <a class="dropdown-item" href="javascript:void(0);">Payout</a>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="javascript:void(0);">Mark as read</a>
+                                            <a class="dropdown-item" href="javascript:void(0);">Mark as unread</a>
+                                            <a class="dropdown-item" href="javascript:void(0);">Spam</a>
+                                            <div role="separator" class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="javascript:void(0);">Delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pagination-email">
+                                    <span>1-50/295</span>
+                                    <div class="btn-group ml-3">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"><i class="zmdi zmdi-chevron-left"></i></button>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"><i class="zmdi zmdi-chevron-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
                         <div class="table-responsive">
                             <table class="table table-hover mb-0 c_list c_table">
                                 <thead>
@@ -480,19 +520,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                          
-                                            <div class="checkbox">
-                                                <input  type="checkbox" class="select_ms" id="select_all" class="select_m">
-                                                <label for="select_all">&nbsp;</label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href="#" class="refresh" >Delete All</a>                
-                                            <a href="#" class="refresh" >Send mail all</a>  
-                                        </td>
-                                    </tr>
+                                  
                                     <tr>
                                         <td>
                                             <div class="checkbox">
