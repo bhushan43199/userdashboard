@@ -1,20 +1,20 @@
 <!doctype html>
 <html class="no-js " lang="en">
 
+
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-<title>:: The Corporate Connection Admin ::</title>
-<link rel="icon" href="favicon.ico" type="image/x-icon">
+<title>:: The Corporate Connection</title>
 <!-- Favicon-->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- Font Icon -->
 <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/plugins/fullcalendar/fullcalendar.min.css">
-<link rel="stylesheet" href="assets/plugins/bootstrap-select/css/bootstrap-select.css" />
 <!-- Custom Css -->
-<link rel="stylesheet" href="assets/css/style.min.css">
+<link  rel="stylesheet" href="assets/css/style.min.css">
 <link rel="stylesheet" href="assets/css/custom.css">
 
 </head>
@@ -272,7 +272,7 @@
                  <a class="image" href="profile.html"><img src="assets/images/profile_av.jpg" alt="User"></a>
                  <div class="detail">
                     <h4>Michael</h4>
-                    <small>Venue Provider</small>                      
+                    <small>Venue Provider</small>                        
                  </div>
               </div>
            </li>
@@ -443,179 +443,151 @@
     </div>
 </aside>
 
-<section class="content page-calendar">
+<section class="content">
     <div class="body_scroll">
         <div class="block-header">
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
-                    <h2>Calendar</h2>
+                    <h2>Inbox</h2>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html"><i class="zmdi zmdi-home"></i></a></li>
-                        <li class="breadcrumb-item"><a href="javascript:void(0);">App</a></li>
-                        <li class="breadcrumb-item active">Calendar</li>
-                    </ul>
+                        <li class="breadcrumb-item"><a href="beading-mail.html">Beading Inbox</a></li>
+                        <li class="breadcrumb-item active">View Bead</li>
+                    </ul>                    
                     <button class="btn btn-primary btn-icon mobile_menu" type="button"><i class="zmdi zmdi-sort-amount-desc"></i></button>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">                
-                    <button class="btn btn-primary btn-icon float-right right_icon_toggle_btn" type="button"><i class="zmdi zmdi-arrow-right"></i></button>
+                    <button class="btn btn-primary btn-icon float-right right_icon_toggle_btn" type="button"><i class="zmdi zmdi-arrow-right"></i></button>                                
                 </div>
             </div>
         </div>
+
         <div class="container-fluid">
-            <div class="row">                
-                <div class="col-md-12 col-lg-8 col-xl-8">
-                    <div class="card">
-                        <div class="body">                            
-                            <div id="calendar"></div>
+            <div class="row clearfix">
+                <div class="col-md-12">
+                    <div class="d-flex">
+                        <div class="mobile-left">
+                            <a class="btn btn-info btn-icon toggle-email-nav collapsed" data-toggle="collapse" href="#email-nav" role="button" aria-expanded="false" aria-controls="email-nav">
+                                <span class="btn-label"><i class="zmdi zmdi-more"></i></span>
+                            </a>
+                        </div>
+                        <!-- <div class="inbox left" id="email-nav">
+                            <div class="mail-compose mb-4">
+                                <a href="mail-compose.html" class="btn btn-danger btn-block">Compose</a>
+                            </div>
+                            <div class="mail-side">
+                                <ul class="nav">
+                                    <li class="active"><a href="mail-inbox.html"><i class="zmdi zmdi-inbox"></i>Inbox<span class="badge badge-primary">6</span></a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-mail-send"></i>Sent</a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-badge-check"></i>Important </a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-file"></i>Draft<span class="badge badge-info">3</span></a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-email"></i>All Mail</a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-alert-circle"></i>Spam<span class="badge badge-warning">6</span></a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-delete"></i>Trash<span class="badge badge-danger">9</span></a></li>
+                                </ul>
+                                <h3 class="label">Labels</h3>
+                                <ul class="nav">
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-danger"></i>UI Project<span class="badge badge-primary">5</span></a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-info"></i>Marketing</a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-dark"></i>Payout</a></li>
+                                    <li><a href="javascript:void(0);"><i class="zmdi zmdi-label text-primary"></i>Meeting</a></li>
+                                </ul>
+                            </div>
+                        </div> -->
+                        <div class="inbox right w-100">
+                            <div class="card">
+                                <div class="body mb-2">
+                                    <div class="d-flex justify-content-between flex-wrap-reverse">
+                                        <h5 class="mt-0 mb-0 font-17">Your updated item Corporate Connection Admin</h5>
+                                        <div>
+                                            <small>Jan 9, 2019, 9:55 PM</small>
+                                            <a href="javascript:void(0);" class="p-2"><i class="zmdi zmdi-star-outline"></i></a>
+                                            <a href="javascript:void(0);" class="p-2"><i class="zmdi zmdi-mail-reply"></i></a>
+                                            <a href="javascript:void(0);" class="p-2"><i class="zmdi zmdi-delete text-danger"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body mb-2">
+                                    <ul class="list-unstyled d-flex justify-content-md-start mb-0">
+                                        <li><img class="rounded w40" src="assets/images/xs/avatar7.jpg" alt=""></li>
+                                        <li class="ml-3">
+                                            <p class="mb-0"><span class="text-muted">From:</span> <a href="javascript:void(0);">woodwalton@info.com</a>, <a href="javascript:void(0);">info@examples.com</a></p>
+                                            <p class="mb-0"><span class="text-muted">To:</span> Me</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="body mb-2">
+                                    <span>Project Bead Price</span>
+                                    <div class="form-group mb-0">
+                                        <input type="text" class="form-control" placeholder="$123" readonly/>
+                                    </div>
+                                </div>
+                                <div class="body mb-2">
+                                    <h6>Hello,</h6>
+                                    <br>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                    <ul>
+                                        <li>standard dummy text ever since the 1500s, when an unknown printer</li>
+                                        <li>Lorem Ipsum has been the industry's standard dummy</li>
+                                    </ul>
+                                    <p class="text-info">Purchase: Corporate Connection has not yet purchased this item from you.</p>
+                                    <br>
+                                  
+                                    <div class="btn-group">
+                                    <button class="btn btn-success " type="button"><i class="zmdi zmdi-case-check"></i> <span>Accept Bead</span></button>    
+                                    <button class="btn btn-danger " type="button"><i class="zmdi zmdi-close"></i> <span>No Thanks</span></button>    
+                                </div>
+                                <br>
+                                <br>
+                                    <div class="file_folder">
+                                        <a href="javascript:void(0);">
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-chart text-success"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="mb-0 text-muted">Report2017.xls</p>
+                                                <small>Size: 68KB</small>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-text text-primary"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="mb-0 text-muted">Report2017.doc</p>
+                                                <small>Size: 68KB</small>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-pdf text-danger"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="mb-0 text-muted">Report2017.pdf</p>
+                                                <small>Size: 68KB</small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="body">
+                                    <a href="mail-compose.html" class="p-2"><i class="zmdi zmdi-mail-reply"></i> Reply</a> or
+                                    <a href="mail-compose.html" class="p-2"><i class="zmdi zmdi-mail-send"></i> Forward</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-12 col-lg-4 col-xl-4">
-                    <div class="card">
-                        <div class="event_list">
-                            <button type="button" class="btn btn-info btn-block waves-effect" data-toggle="modal" data-target="#addevent">Add Events</button>
-                            <div class="e_list">
-                                <h5 class="e_name">11 September <span class="badge badge-primary float-right">Conference</span></h5>
-                                <address><i class="zmdi zmdi-pin"></i> 123 6th St. Melbourne, FL 32904</address>
-                                <p class="e_details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
-                            <div class="e_list">
-                                <h5 class="e_name">12 November <span class="badge badge-success float-right">Birthday Party</span></h5>
-                                <address><i class="zmdi zmdi-pin"></i> 123 6th St. Melbourne, FL 32904</address>
-                                <p class="e_details">It is a long established fact that a reader will be distracted</p>
-                            </div>
-                            <div class="e_list">
-                                <h5 class="e_name">16 December <span class="badge badge-danger float-right">Repeating</span></h5>
-                                <address><i class="zmdi zmdi-pin"></i> 123 6th St. Melbourne, FL 32904</address>
-                                <p class="e_details">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>          
             </div>
         </div>
     </div>
 </section>
-
-<!-- Add New Event popup -->
-<div class="modal fade" id="addNewEvent" aria-hidden="true" style="display: none;">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title"><strong>Add</strong> an event</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label class="control-label">Event Name</label>
-                            <input class="form-control" placeholder="Enter name" type="text" name="category-name">
-                        </div>
-                        <div class="col-md-6">
-                            <label class="control-label">Choose Event Color</label>
-                            <select class="form-control" data-placeholder="Choose a color..." name="category-color">
-                                <option value="success">Success</option>
-                                <option value="danger">Danger</option>
-                                <option value="info">Info</option>
-                                <option value="primary">Primary</option>
-                                <option value="warning">Warning</option>
-                            </select>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success save-event" data-dismiss="modal">Save</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Add Direct Event popup -->
-<div class="modal fade" id="addDirectEvent" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title">Add Direct Event</h4>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Event Name</label>
-                            <input class="form-control" name="event-name" type="text" />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Event Type</label>
-                            <select name="event-bg" class="form-control">
-                                <option value="success">Success</option>
-                                <option value="danger">Danger</option>
-                                <option value="info">Info</option>
-                                <option value="primary">Primary</option>
-                                <option value="warning">Warning</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn save-btn btn-success">Save</button>
-                <button class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Event Edit Modal popup -->
-<div class="modal fade" id="eventEditModal" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title">Edit Event</h4>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Event Name</label>
-                            <input class="form-control" name="event-name" type="text" />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Event Type</label>
-                            <select name="event-bg" class="form-control">
-                                <option value="success">Success</option>
-                                <option value="danger">Danger</option>
-                                <option value="info">Info</option>
-                                <option value="primary">Primary</option>
-                                <option value="warning">Warning</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn mr-auto delete-btn btn-danger">Delete</button>
-                <button class="btn save-btn btn-success">Save</button>
-                <button class="btn btn-default" data-dismiss="modal">Cancel</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 <!-- Jquery Core Js --> 
 <script src="assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js --> 
 <script src="assets/bundles/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js --> 
 
-<script src="assets/bundles/fullcalendarscripts.bundle.js"></script><!--/ calender javascripts --> 
-
 <script src="assets/bundles/mainscripts.bundle.js"></script><!-- Custom Js --> 
-<script src="assets/js/pages/calendar/calendar.js"></script>
-<script src="assets/js/pages/custom.js"></script>
 </body>
+
 
 </html>
