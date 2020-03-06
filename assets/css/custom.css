@@ -197,3 +197,7 @@ select:-webkit-autofill:focus{
   position: relative;
   padding: 10px;
 }
+
+.accept-reply{
+  display: none;
+}
